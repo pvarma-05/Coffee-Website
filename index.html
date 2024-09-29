@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tanjore Degree Coffee</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/mediaqueries.css">`
+
+</head>
+
+<body>
+  <!-- NavBar -->
+  <div class="navbar-sec">
+    <nav class="navbar navbar-expand-custom navbar-mainbg fixed-top rounded navi">
+      <img draggable="false" src="/Assets/logo_prev_ui.png" alt="logo" class="navbar-brand navbar-logo navi-logo">
+      <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <div class="hori-selector">
+            <div class="left"></div>
+            <div class="right"></div>
+          </div>
+          <li class="nav-item active">
+            <a class="nav-link" href="#home"><i class="fas fa-home"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i>About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery"><i class="fas fa-images"></i>Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonial"><i class="fas fa-comment-dots"></i>Client Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i>Reach Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--Home-->
+  <section class="sec d-flex justify-content-center align-items-center flex-column" id="home">
+    <h1>Welcome to Tanjore Degree Coffee</h1>
+    <h2>Experience the finest blend of tradition and flavor</h2>
+    <button class="cta-button"><a href="#contact" style="text-decoration: none;color: #FFF5E4;">Order Now</a></button>
+  </section>
+
+  <!--About-->
+  <section class="sec" id="about">
+    <div class="container text-center">
+      <h1>About Us</h1>
+      <br>
+      <p class="about-text">
+        At Tanjore Degree Coffee, we are dedicated to delivering the finest coffee experience. Our
+        unique blend of tradition, craftsmanship, and premium ingredients ensures each cup is a masterpiece. Whether
+        you're savoring the richness of our filter coffee or enjoying the aromatic flavors of our brews, we strive to
+        make every sip special. Experience the best of South Indian coffee culture, right here.</p>
+      <p class="about-text">In the year of 2013 Jan 22nd, <strong>Shri C.Saminathan</strong> who has packed 35+ years of
+        experience in
+        FMCG Industry laid the foundation for his Coffee Decoction under the brand name of TANJORE Degree Coffee</p>
+      <!-- Carousel -->
+      <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Assets/Banner_img2.png" class="d-block w-100" alt="Banner-1" onclick="showImageInModal(this)">
+          </div>
+          <div class="carousel-item">
+            <img src="Assets/Banner_img1.png" class="d-block w-100" alt="Banner-2" onclick="showImageInModal(this)">
+          </div>
+          <div class="carousel-item">
+            <img src="Assets/Banner_img3.png" class="d-block w-100" alt="Banner-3" onclick="showImageInModal(this)">
+          </div>
+          <div class="carousel-item">
+            <img src="Assets/Banner_img4.jpeg" class="d-block w-100" alt="Banner-4" onclick="showImageInModal(this)">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleAutoplaying" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleAutoplaying" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!--Gallery-->
+  <section class="sec" id="gallery">
+    <div class="container image-gallery-section py-5">
+      <h1 class="text-center mb-4">Our Gallery</h1>
+      <br>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img draggable="false" src="Assets/Gallery_img1.png" alt="Tanjore Degree Coffee Bottle" class="img-fluid">
+        </div>
+        <div class="gallery-item">
+          <img draggable="false" src="Assets/Gallery_img2.jpeg" alt="Tanjore Coffee Machine" class="img-fluid">
+        </div>
+        <div class="gallery-item">
+          <img draggable="false" src="Assets/Gallery_img3.png" alt="Tanjore Coffee Bottles" class="img-fluid">
+        </div>
+        <div class="gallery-item">
+          <img draggable="false" src="Assets/Gallery_img4.jpeg" alt="Coffee Beans in a Cup" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials-->
+  <section class="sec" id="testimonial">
+    <div class="container text-center py-5">
+      <h1 class="text-center mb-4">Client Testimonials</h1>
+      <br>
+      <p>At Tanjore Degree Coffee, we pride ourselves on delivering <strong>high-quality</strong> coffee while
+        maintaining <strong>authenticity</strong> in every cup.</p>
+      <br>
+      <div class="testimonial-container">
+        <div class="testimonial-card" style="background-color:#3c2f27; color: #FFF5E4;">
+          <img src="Assets/boy.png" alt="Client 1">
+          <h3 style="color: #FFF5E4;">John Doe</h3>
+          <p class="clientTestimonials_007_stars__OXfMD"><svg stroke="gold" fill="gold" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg><svg stroke="gold" fill="gold" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg><svg stroke="gold" fill="gold" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg><svg stroke="gold" fill="gold" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg><svg stroke="gold" fill="gold" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg></p>
+          <p>"Tanjore Degree Coffee is a game-changer. The rich flavor and authenticity are unmatched."</p>
+        </div>
+        <div class="testimonial-card" style="background-color:#3c2f27; color: #FFF5E4;">
+          <img src="Assets/woman.png" alt="Client 2">
+          <h3 style="color: #FFF5E4;">Jane Smith</h3>
+          <p class="clientTestimonials_007_stars__OXfMD"><svg stroke="gold" fill="gold" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg><svg stroke="gold" fill="gold" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg><svg stroke="gold" fill="gold" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg><svg stroke="gold" fill="gold" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg><svg stroke="gold" fill="gold" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg></p>
+          <p>"The perfect blend of tradition and modern flavor. I can't start my day without it!"</p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <h1>Best of Tanjore Coffee</h1>
+      <br>
+      <br>
+      <div class="feature-container">
+        <div class="feature-card">
+          <img src="Assets/Best quality img.png" alt="Client 1">
+          <h2>Quality</h2>
+          <p>"Tanjore Degree Coffee is a game-changer. The rich flavor and authenticity are unmatched."</p>
+        </div>
+        <div class="feature-card">
+          <img src="Assets/org authentic img.png" alt="Client 2">
+          <h2>Authenticity</h2>
+          <p>"The perfect blend of tradition and modern flavor. I can't start my day without it!"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact-->
+  <section class="sec" id="contact">
+    <div class="container text-center">
+      <h1 class="text-center mb-4">Reach Us</h1>
+      <div class="contact-info">
+        <div><i class="fas fa-phone"></i> +919003106755</div>
+        <div><i class="fas fa-envelope"></i> tanjoredegreecoffee@yahoo.in</div>
+      </div>
+      <div class="contact-form">
+        <form action="#" method="post">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn-contact">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="d-flex justify-content-center flex-column align-items-center footer-sec">
+    <p class="footer-text">&copy; 2023 Tanjore Degree Coffee. All rights reserved.</p>
+    <p class="developer-text">Developed by Pradeep Varma [<a href="https://pvarma.vercel.app" target="_blank">link</a>]</p>
+  </footer>
+
+
+
+  <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js'></script>
+  <script src="script.js"></script>
+
+  <!-- Modal for Image Zoom -->
+  <div id="imageModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document"> <!-- Changed to modal-xl for extra-large modal -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="imageModalLabel">Image Preview</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="" id="modalImage" alt="carousel image" style="max-width: 100%; max-height: 100vh; object-fit: contain;">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
